@@ -1,0 +1,82 @@
+body {
+    background-color: #111;
+    color: #199;
+  }
+  
+  button{
+    color: #199;
+    background-color: #111;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    box-shadow: 5px 2px 5px black;
+  }
+  
+  button:hover{
+    box-shadow: 0 5px 5px #199;
+    
+  }
+  
+  img{
+    height: 200px;
+    border:1px solid;
+    margin-top:20px;
+    margin-bottom:30px;
+  }
+  
+  .pokeInfo{
+    display:flex;
+    justify-content:center;
+  }
+  
+  h1{
+    display:flex;
+    justify-content:center;
+  }
+  
+  .pokename{
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    font-size:30px;
+  }
+  
+  .pokeheight{
+  /*   padding:20px; */
+    display:flex;
+    justify-content:center;
+  /*   border: 1px solid; */
+    margin-bottom:10px;
+  }
+  
+  .pokeweight{
+  /*   padding:20px; */
+    display:flex;
+    justify-content:center;
+  /*     border: 1px solid; */
+  }
+  
+  .poketype{
+  /*   padding:20px; */
+    display:flex;
+    justify-content:center;
+  /*     border: 1px solid; */
+  }
+  
+  .pokeability{
+  /*   padding:20px; */
+    display:flex;
+    justify-content:center;
+  /*     border: 1px solid; */
+  }
+  
+  
+  .pokestuff{
+    display:flex;
+    margin-left:35%;
+  }
+  
+  .mxm{
+    display:flex;
+    flex-direction:column;
+  }
